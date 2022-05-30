@@ -60,7 +60,8 @@ echo -e '\n\n\n\n\n\n\n\n\n\n\n\n\n' > tf_4.txt
 echo -e '\n\n\n\n\n\n\n\n\n\n\n' > tF_5.txt
 
 ## 16. Вывести список всех файлов в папке.
-ls -F *.*
+	##ls -F *.*
+find . -maxdepth 1 -type f -name "*"
 
 ## 17. Выйти из папки inner_dir_1
 cd ../
